@@ -4,7 +4,6 @@ import openai
 
 from twilio.twiml.messaging_response import MessagingResponse
 
-
 openai.api_key = app.config.get("OPENAI_KEY")
 
 def openai_create(prompt):
